@@ -1,0 +1,308 @@
+.wholecontainer{
+position: relative;
+width:100%;
+height:100vh;
+background-image: linear-gradient(#000428,#004e92 );
+
+}
+
+
+.heading{
+  position: absolute;
+  display: flex;
+color:white;
+
+
+}
+
+.heading p{
+font-weight: 700;
+font-size:40px ;
+margin-left:20px ;
+}
+
+
+
+.display{
+  position: absolute;
+color:rgb(235, 233, 233);
+font-weight:700 ;
+border:2px solid rgb(248, 248, 248);
+background-color: #000428;
+width:40%;
+height:300px;
+margin-top: 8%;
+margin-left:36% ;
+}
+
+.keyboard{
+ position: absolute;
+color:red;
+background-color: rgb(3, 36, 85);
+
+width:70%;
+height:35% ;
+margin-top:27% ;
+margin-left:11% ;
+}
+
+.thenumbers{
+ 
+ 
+}
+
+.button{
+width:70px;
+height:60px ;
+padding:10px;
+margin-right:.2% ;
+color:rgb(235, 224, 224);
+background-color: #000428;
+}
+
+
+.button:hover{
+background-color:#030c5c;
+
+
+
+}
+
+
+.entiredisplay{
+color: red;
+
+width:100%;
+height:100px ;
+word-wrap: break-word;
+}
+
+
+
+.deletebutton{
+width:130px;
+margin-left:8px ;
+background-color: #000428;
+height:60px ;
+color: rgb(235, 240, 245);
+}
+
+
+
+.deletebutton:hover{
+background-color: crimson;
+
+
+}
+
+
+.thecharcters{
+
+
+}
+
+.spacebutton{
+width:42%;
+height:10% ;
+margin-left:29% ;
+color:rgb(251, 253, 255);
+margin-top:.5% ;
+
+}
+
+
+.spacebutton2{
+  width:100%;
+  height: 100%;
+  color:rgb(228, 222, 222);
+  background-color: #727272;
+}
+
+.spacebutton2:hover{
+  background-color: #221818;
+  
+transition: .15s;
+}
+
+
+
+.highlight{
+  font-size:248% ;
+  margin-top:-2.5px ;
+
+
+}
+
+@media  screen and (max-width:1550px) {
+
+.button{
+
+
+}
+
+.display{
+margin-top:36px ;
+}
+
+.keyboard{
+margin-top:450px ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media  screen and (max-width:1248px) {
+.button{
+ 
+  width:50px;
+}
+
+
+
+
+
+
+
+}
+
+
+@media  screen and (max-width:942px) {
+  .button{
+    
+    width:40px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  }
+
+
+
+
+
+
+@media  screen and (max-width:800px) {
+  
+
+.display{
+margin-top:16% ;
+
+}
+
+
+
+.keyboard{
+margin-top:58% ;
+
+}
+
+
+
+
+.button{
+width:7%;
+
+
+}
+
+
+
+
+
+
+
+
+}
+
+
+@media  screen and (max-width:710px) {
+
+.thenumbers{
+width:110%;
+
+}
+.thecharcters{
+  width:110%;
+}
+
+
+.display{
+  margin-top:15% ;
+  
+  }
+
+  .button{
+   width:10px ;
+   margin-right:2px ;
+   height:50px;
+   width:35px ;
+   padding:1px ;
+  }
+
+
+.keyboard{
+  margin-top:500px ;
+}
+
+
+
+
+}
+
+
+@media  screen and (max-width:700px) {
+
+.button{
+
+
+}
+
+.thenumbers{
+width:130%;
+
+
+}
+
+
+
+}
+
+
+
+@media  screen and (max-width:630px) {
+
+  .button{
+  
+  width:20px;
+  }
+  
+  .display{
+    width:100%;
+    margin-left:0px ;
+    margin-top:95px ;
+  }
+  
+  
+  
+  
+  
+  
+  }
