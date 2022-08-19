@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Virtual-Keyboard/static/css/main.28dd2fd3.css",
+    "main.js": "/Virtual-Keyboard/static/js/main.db461119.js",
+    "index.html": "/Virtual-Keyboard/index.html",
+    "main.28dd2fd3.css.map": "/Virtual-Keyboard/static/css/main.28dd2fd3.css.map",
+    "main.db461119.js.map": "/Virtual-Keyboard/static/js/main.db461119.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28dd2fd3.css",
+    "static/js/main.db461119.js"
+  ]
+}
